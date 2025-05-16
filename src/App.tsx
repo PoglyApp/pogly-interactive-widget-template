@@ -46,6 +46,13 @@ function App() {
 
     // Code to grab messages from Twitch chat.
     twitchClient.on("message", (_channel: string, tags: tmi.ChatUserstate, message: string) => {
+      // Twitch has anti spam mechanism that prevents you from sending 2 identical messages back to back.
+      // 7TV has a feature where it adds a random space into the message to get around the spam filter.
+      // This just gets rid of that space so if your widget relies on users writing the same message twice in a row, the second message wont be ignored.
+      if (/[\u0020\uDBC0]/.test(message)) {
+        message = message.slice(0, -3);
+      }
+
       setMessage(message);
     });
   }, []);
