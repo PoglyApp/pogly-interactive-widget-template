@@ -14,6 +14,7 @@ The project url is by default `../example/?channel=`. You need to edit `vite.con
 - [Twitch chat plays snake overlay](https://github.com/Lethalchip/twitch-chat-snake)
 - [Twitch chat plays tetris overlay](https://github.com/Lethalchip/twitch-chat-tetris)
 - [Twitch chat poll overlay](https://github.com/Lethalchip/twitch-poll-overlay)
+- [Twitch chat soundboard overlay](https://github.com/Dynrothe/twitch-chat-soundboard-overlay)
 
 # Widget code template
 
