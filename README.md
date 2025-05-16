@@ -1,6 +1,6 @@
 # Pogly interactive widget template
 
-This is a barebone template to create interactive widgets for Pogly utilizing TMI.js and React.
+This is a barebone template to create interactive widgets for Pogly utilizing TMI.js and React. You can find all logic in [App.tsx](https://github.com/PoglyApp/pogly-interactive-widget-template/blob/main/src/App.tsx).
 
 ## Noteable things
 
